@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Satisfy&display=swap');
+html{
+    scroll-behavior: smooth;
+    
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    background: url(anant1.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+   
+}
+.navbar{
+   
+    height: 80px;
+    width: 100%;
+    background: rgba(9, 2, 41, 0.4)
+}
+.navbar ul{
+    float:right;
+    margin-right: 12px;
+
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+    
+}
+.navbar ul li a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+h1
+{
+    color:white;
+    text-align: left;
+    position: relative;
+    top: 230px;
+    left: 50px;
+    font-size: 75px;
+}
+h2{
+    color:whitesmoke;
+    position: relative;
+    top: 250px;
+    left: 50px;
+    font-size: 35px;
+}
+.common{
+    margin-top: 20px;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.firstsection
+{   
+    margin-top: 20px;
+    background-color: white;
+    
+   
+}
+#C4
+{
+    font-size: 60px;
+    margin-left: 500px ;
+    font-family: 'Satisfy', cursive;
+   
+}
+
+.firstsection p{
+    float: left;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    
+}
+#image{
+    
+    margin-right: 150px;
+    margin-left: 100px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+.common2{
+    height: 600px;
+    background-color: #040823;
+    
+    
+}
+.common2 .thirdsection #experience{
+    color: white;
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#image3{
+   margin-left: 50px;
+   margin-top: 30px;
+   
+}
+#image2{
+    margin-top: 30px;
+    margin-left: 100px;
+
+}
+#intel{
+    margin-top: 30px;
+    margin-right: 60px;
+}
+#image4{
+    margin-left: 90px;
+    margin-top: 30px;
+    margin-right: 100px;
+   
+}
+.common2 .images{
+    display: flex;
+}
+
+.images p{
+    margin-top: 10px;
+    margin-left: 40px;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+}
+.contact{
+    height:450px;
+}
+.contact-title{
+    margin-top: 50px;
+    color: rgb(179, 72, 54);
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+}
+form{
+    margin-top: 50px;
+    margin-left: 450px;
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    
+    font-size: 18px ;
+    margin-bottom: 18px;
+}
+input{
+    height: 45px;
+    
+}
+.form-control-submit{
+    width: 600px;
+    background-color: #ff5722;
+    color: #ff5722;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.form-control-submit:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+
+
+footer{
+    position:relative;
+  
+  
+    background: #040823;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+   
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+    size: 30px;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
